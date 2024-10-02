@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE PIECE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(149, 172, 197);
+            color: rgb(0, 0, 0);
+            font-family: Monaco, monospace;
+        }
+        header {
+            width: 100%;
+            height: 20vh;
+            margin-top: 5px;
+            position: relative;
+        }
+        header h1 {
+            text-align: left;
+            color: #225789;
+            font-size: 50px;
+            float: left;
+            margin-left: 10px;
+        }
+        .logo {
+            width: 20%;
+            height: 155px;
+            float: left;
+            padding-left: 5px;
+        }
+        nav {
+            position: absolute;
+            right: 50px;
+            top: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            font-size: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 60px;
+            transition: color 1s;
+        }
+        nav a:hover {
+            color: #542426;
+            font-size: 30px;
+        }
+        .caja {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 10px;
+        }
+        h2 {
+            font-size: 35px;
+            color: cornflowerblue;
+        }
+        p {
+            padding-top: 10px;
+            padding-bottom: 5px;
+            text-align: justify;
+            font-size: 30px;
+        }
+        .pie {
+            background-color: rgb(74, 74, 139);
+            margin: 10px;
+            padding: 10px;
+            font-size: 12px;
+            font-weight: 800;
+            clear: both;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="one2p.png" alt="" />
+        </div>
+        <h1>ONE PIECE</h1>
+        <nav>
+            <a href="#ini">INICIO</a>
+            <a href="#per">PERSONAJES</a>
+            <a href="#tra">TRAILER</a>
+        </nav>
+    </header>
+    <section class="caja">
+        <article>
+            <a id="ini"></a>
+            <h2>INICIO</h2>
+            <p>One Piece (ワンピース Wan Pīsu?)2​ (estilizado en mayúsculas) es un manga escrito e ilustrado por Eiichirō Oda. Comenzó a publicarse en la revista Japonesa Weekly Shōnen Jump el 22 de julio de 1997 y a la fecha se han publicado 109 volúmenes. La obra narra las aventuras de Monkey D. Luffy y su tripulación, los Piratas de Sombrero de Paja, recorriendo el mar para encontrar el legendario tesoro "One Piece" y así convertirse en el Rey de los Piratas.
+                One Piece es el manga más vendido de la revista Weekly Shōnen Jump (la más importante, reconocida y vendida del medio), de la Editorial Shueisha, y de toda la historia de Japón, con más de 516 millones de copias vendidas a nivel mundial (416 millones en Japón, y 100 millones en 60 países juntos), y en Japón fue el manga más vendido de manera consecutiva desde el año 2007 hasta 2018 logrando un récord histórico.
+                Es el manga que más ganancias ha reportado a su autor, ostentando el Récord Guinness como el manga con mayor cantidad de copias publicadas de la misma obra de cómic realizado por un único autor en todo el mundo. En la encuesta realizada por la cadena de televisión japonesa TV Asahi para elegir los 100 Mejores mangas de la historia, One Piece alcanzó el puesto número 1.  
+                El manga generó una franquicia de One Piece, la cual cuenta con una adaptación de anime, múltiples especiales de televisión, OVAs, películas de animación, videojuegos, obras de teatro, novelas ligeras, varios mangas spin-offs, y una adaptación de imagen real.
+            </p>
+        </article>
+        <article>
+            <a id="per"></a>
+            <h2>PERSONAJES</h2>
+            <p>
+                Han salido un total de 1094 personajes, una cifra que a priori parece corta para llevar tantos capítulos desde 1997.
+                Posiblemente este número aumente en los próximos meses y suponemos que se trata de los personajes con mayor presencia en la serie.
+            </p>
+            <h2>PERSONAJES PRINCIPALES</h2>
+            <p>
+                <h2>Monkey D. Luffy</h2>
+                <img src="Luffy.jpg" alt="Monkey D. Luffy" width="300px" height="500px">
+            </p>
+        </article>
+        <article>
+            <a id="tra"></a>
+            <h2>TRAILER</h2>
+            <p>
+                Este trailer muestra el adelanto de la grandiosa serie que es "One Piece", y también a todos los personajes que están,
+                tiene una adaptación en LIVE ACTION y su serie animada
+            </p>
+            <iframe
+                width="453"
+                height="280"
+                src="https://www.youtube.com/embed/sSovEWQGTwg"
+                title="One Piece: La Historia de LUFFY 🔶 | La vida de Monkey D. Luffy: Parte 1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class="center"
+            ></iframe>
+        </article>
+    </section>
+    <footer class="pie">
+        <p>DERECHOS RESERVADOS</p>
+    </footer>
+</body>
+</html>
